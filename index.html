@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <title>Flor & Ramo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+          
+    <header>
+        <h1>Flor & Ramo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <!-- <li><a href="cadastro.html">Cadastro</a></li> -->
+                <li><a href="carrinho.html">Carrinho (<span id="carrinho-count">0</span>)</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <main id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div id="filtro">
+            <input type="text" id="search" placeholder="Buscar produtos...">
+        </div>
+        <div class="produto" data-nome="Samambaia">
+            <img src="images/produto1.png" alt="produto1">
+            <h3>Samambaia</h3>
+            <p>As Samambaias são plantas vasculares sem sementes que se distribuem desde desertos até florestas tropicais. Apresentam diversas formas de vida podendo ser terrestres, epífitas, rupícolas, aquáticas, hemiepífitas e trepadeiras, variando desde minúsculas herbáceas até formas arborescentes </p>
+            <button data-nome="Samambaia">Adicionar ao carrinho</button>
+        </div>
+        <div class="produto" data-nome="Manjerição">
+            <img src="images/produto2.png" alt="Produto 2">
+            <h3>Manjerição</h3>
+            <p>Planta herbácea anual, de polinização cruzada, resultando em grande número de subespécies, variedades e formas. Muito ramificada, aromática e perfumada; atinge 0,5 a 1m de altura. Possui haste reta com muitas folhas carnosas, ovaladas, sem pêlos e de cor verde-brilhante.</p>
+            <button data-nome="Manjerição">Adicionar ao carrinho</button>
+        </div>
+        <!-- colocar mais produutos -->
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
